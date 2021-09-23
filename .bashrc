@@ -29,4 +29,4 @@ fi
 
 export PS1="\[\033[38;5;10m\][\u@\H]\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;11m\][\t]\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;45m\][\w]\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;13m\][\\$]\[$(tput sgr0)\]\[\033[38;5;15m\] "
 
-export PATH="$PATH:/home/mhmd/.local/bin"
+export PATH="$PATH:/home/debian/.local/bin"
