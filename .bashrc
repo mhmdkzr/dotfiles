@@ -4,10 +4,10 @@ case $- in
 esac
 
 HISTCONTROL=ignoreboth
-shopt -s histappend
 HISTSIZE=5000
 HISTFILESIZE=5000
 
+shopt -s histappend
 shopt -s checkwinsize
 shopt -s globstar
 
@@ -28,10 +28,7 @@ if ! shopt -oq posix; then
 fi
 
 export PS1="\[\033[38;5;10m\][\u@\H]\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;11m\][\t]\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;45m\][\w]\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;13m\][\\$]\[$(tput sgr0)\]\[\033[38;5;15m\] "
-
 export PATH="$PATH:/home/debian/.local/bin"
-
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 export LANGUAGE=en_US.UTF-8
-
